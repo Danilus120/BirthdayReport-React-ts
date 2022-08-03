@@ -47,7 +47,7 @@ During this project, I used ContextApi to pass data to components. I found the u
 To run this project, install it locally using npm:
 
 ```
-git clone
+git clone https://github.com/Danilus120/BirthdayReport-React-ts
 
 npm install
 
