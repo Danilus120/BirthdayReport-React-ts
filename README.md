@@ -42,6 +42,14 @@ During this project, I used ContextApi to pass data to components. I found the u
     <img src="screenshots/1.png" alt="Screen Shot">
 </p>
 
+<p align="center">
+    <img src="screenshots/2.png" alt="Screen Shot">
+</p>
+
+<p align="center">
+    <img src="screenshots/3.png" alt="Screen Shot">
+</p>
+
 ## 💾 Installation
 
 To run this project, install it locally using npm:
