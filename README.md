@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+# 📆 BirthdayReportApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
 
-## Available Scripts
+- ℹ️ [General info](#ℹ️-general-info)
+- 🎉[Project overview](#-project-overview)
+- 📖 [What I learned during this project?](#-what-i-learned-during-this-project)
+- ⚙️ [Technologies](#️-technologies-used-in-project)
+- 📷 [Screenshots](#-screenshots)
+- 💾 [Installation](#-installation)
+- 📜 [Available scripts](#-available-scripts)
+- 🔴 [Live](#-live)
 
-In the project directory, you can run:
+## ℹ️ General info
 
-### `npm start`
+BirthdayReport App (ContextApi + date-fns + Formik + Yup + localStorage)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🎉 Project Overview
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The project is an application that has a built-in calendar on which, after the user adds a name and a date, a marker appears on the person's date of birth and a reminder 2 weeks back from the date of birth. The data is stored in the browser's localStorage
 
-### `npm test`
+## 📖 What I learned during this project?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+During this project, I used ContextApi to pass data to components. I found the use of many libraries such as date-fns - when creating a calendar, and Formik + Yup when creating a form to add birthdays. The hardest part of this project was making a calendar that has functionality in it, such as changing the weekly / monthly view, and creating logic to read data from the calendar so that when you click on an event, it displays in the modal
 
-### `npm run build`
+## ⚙️ Technologies used in project:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Tech                                          | Description                                             |
+| --------------------------------------------- | ------------------------------------------------------- |
+| [React](https://reactjs.org/)                 | A JavaScript library for building user interfaces       |
+| [Typescript](https://www.typescriptlang.org/) | Javascript superset language                            |
+| [Formik](https://formik.org)                  | Most popular open source form library for React         |
+| [Yup](https://github.com/jquense/yup)         | Schema builder for runtime value parsing and validation |
+| [Date-fns](https://date-fns.org/)             | Modern JavaScript date utility library                  |
+| [Sass](https://sass-lang.com/)                | Css extension                                           |
+| [Eslint](https://eslint.org/)                 | Javascript Linter                                       |
+| [Prettier](https://prettier.io/)              | Code formatter                                          |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📷 Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="center">
+    <img src="screenshots/1.png" alt="Screen Shot">
+</p>
 
-### `npm run eject`
+## 💾 Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To run this project, install it locally using npm:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+git clone
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+npm install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+npm start
+```
 
-## Learn More
+## 📜 Available scripts
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Command         | Description            |
+| --------------- | ---------------------- |
+| `npm start`     | Open local server      |
+| `npm run build` | Create optimized build |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🔴 Live
+
+https://chatbot-danilus120.netlify.app/

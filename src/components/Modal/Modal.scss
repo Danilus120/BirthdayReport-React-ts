@@ -1,0 +1,62 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    &__bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 9997;
+    }
+
+    &__box {
+        position: absolute;
+        z-index: 9999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        width: 300px;
+        height: 300px;
+
+        background-color: white;
+
+        border-radius: 15px;
+    }
+
+    &__button {
+        button {
+            margin: 5px 10px;
+            padding: 10px;
+
+            border: none;
+
+            color: white;
+
+            background-color: rgb(230, 84, 104);
+
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgb(184, 67, 82);
+            }
+        }
+    }
+}
